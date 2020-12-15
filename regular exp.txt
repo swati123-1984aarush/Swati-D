@@ -1,0 +1,44 @@
+
+1. Find all matching string that contains “ai”.
+
+import re
+txt = "We will go again in train"
+x = re.findall("ai", txt)
+print(x)
+
+['ai', 'ai']
+
+
+
+
+2. Make a search that returns no match:
+import re
+txt = "We will go again in train"
+x = re.findall("jump", txt)
+print(x)
+if (x):
+  print("Yes, there is at least one match!")
+else:
+  print("No match")
+[]
+No match
+
+
+3.Replace the first two occurrences of a white-space character with the digit 5.
+
+import re
+txt = "We will go again in train"
+x = re.sub("\s","5", txt,2)
+print(x)
+We5will5go again in train
+
+
+
+
+4. Program to sort alphabetically the words form a string provided by the user
+def sortString(str): 
+    return ''.join(sorted(str)) 
+  
+str = 'PYTHON'
+print(sortString(str)) 
+HNOPTY

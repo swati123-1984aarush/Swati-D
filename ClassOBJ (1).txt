@@ -1,0 +1,35 @@
+
+1. Create a class named Person, use the __init__() function to assign values for name and age:
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+
+p1 = Person("Ram", 24)
+
+print(p1.name)
+print(p1.age)
+
+Ram
+24
+
+2 Create clock class that containt Hr min sec. Accept the value and display it.
+
+
+class clock:
+    def __init__(self,hr,min,sec):
+        self.hr=hr
+        self.min=min
+        self.sec=sec
+        
+def get__time__hour(self):
+    C1 = clock(17,45,20)
+print(C1.hr)
+print(C1.min)
+print(C1.sec)
+17
+45
+20
